@@ -1,15 +1,20 @@
 # encoding: utf-8
 
-require 'Nokogiri'
-require 'capybara'
-
 # Time to wait to reach equilibrium or fail, in seconds
 PROCESS_TIME_LIMIT = 30
-TRANSLATION_PARTY_SITE_URL = 'http://translationparty.com'
+
+# Regex to split up the input text into chunks
 TEXT_DELIMITER_REGEX = /[\n\.]+[\s\.]*/
+
+# Output file paths
 OUT_FILE_PATH_LINE_TO_LINE = "line2line.txt"
 OUT_FILE_PATH_ORIGINALS    = "originals.txt"
 OUT_FILE_PATH_TRANSLATED   = "translated.txt"
+
+TRANSLATION_PARTY_SITE_URL = 'http://translationparty.com'
+
+require 'Nokogiri'
+require 'capybara'
 
 def get_translation(text)
   C.first('textarea').set(text)
