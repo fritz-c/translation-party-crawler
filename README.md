@@ -1,7 +1,7 @@
-Translation Party Crawler
+Translation Party Miner
 -------------
 
-A web crawler specifically created to mine translations of large chunks of text from [TranslationParty](http://TranslationParty.com). I made it just for fun, so please don't use it for nefarious purposes.
+A tool to mine translations of chunks of text from [TranslationParty](http://TranslationParty.com). I made it just for fun, so please don't use it for nefarious purposes.
 
 ### Requirements:
 - Run `bundle install` in the project directory to install the required ruby gems.
@@ -10,7 +10,7 @@ A web crawler specifically created to mine translations of large chunks of text 
 ### Usage:
 
 ```sh
-ruby crawl.rb < input.txt
+ruby miner.rb < input.txt
 ```
 
 Results will be output to the terminal as well as files specified in the script
