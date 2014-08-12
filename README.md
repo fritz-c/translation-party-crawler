@@ -1,7 +1,7 @@
-tPartyCrawler
+Translation Party Crawler
 -------------
 
-A web crawler specifically created to mine translations of large chunks of text from TranslationParty.com.
+A web crawler specifically created to mine translations of large chunks of text from [TranslationParty](http://TranslationParty.com). I made it just for fun, so please don't use it for nefarious purposes.
 
 ### Requirements:
 - Run `bundle install` in the project directory to install the required ruby gems.
@@ -69,7 +69,7 @@ Yeah, I don't wanna miss a thing
 
 file `translated.txt`
 
-```txt
+```text
 Woke up, heard the
 Watch while you sleep, smile.
 Far away in the dream
@@ -95,7 +95,7 @@ Yes, no, Miss.
 
 file `line2line.txt`
 
-```txt
+```text
 I could stay awake just to hear you breathing
 >>> Woke up, heard the
 
@@ -162,7 +162,7 @@ Yeah, I don't wanna miss a thing
 
 file `originals.txt`
 
-```txt
+```text
 I could stay awake just to hear you breathing
 Watch you smile while you are sleeping
 While you're far away and dreaming
@@ -185,3 +185,25 @@ I'd still miss you baby and I don't want to miss a thing
 I don't wanna close my eyes, I don't wanna fall asleep
 Yeah, I don't wanna miss a thing
 ```
+
+The MIT License (MIT)
+
+Copyright (c) 2014 Chris Fritz
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
